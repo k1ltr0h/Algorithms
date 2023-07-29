@@ -12,7 +12,7 @@ int main(int argc, char** argv){
     int list_len;
     int* list = get_list_from_argv(argv[1], &list_len);
 
-    //int list[25] = {2, 0, 5, 1, 2, 4, 7, 3, 5, 4, 1, 0, 9, 6, 34, 56, 32, 12, 56, 89, 6, 35, 65, 45, 19};
+    //int list[25] = {2,0,5,1,2,4,7,3,5,4,1,0,9,6,34,56,32,12,56,89,6,35,65,45,19};
 
     printf("Lista ingresada (desordenada): [");
 
@@ -35,6 +35,8 @@ int main(int argc, char** argv){
         }
         printf("%d, ", sorted_list[i]);
     }
+
+    free(list);
 
     return 0;
 }
