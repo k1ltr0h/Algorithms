@@ -14,5 +14,4 @@ Algorithms repository for C/C++ enthusiasts, students or averyone with some curi
 
 Contributors names and contact info
 
-* k1ltr0  
 * [@k1ltr0](https://github.com/k1ltr0h)
