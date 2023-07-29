@@ -7,7 +7,11 @@ int* get_list_from_argv(char* list, int* list_len);
 int get_split_len(char* list, const char* delim);
 char* copy_char_array(char* list);
 
+// Compile with: gcc selection_sort.c -o selection_sort
+
 int main(int argc, char** argv){
+
+    printf("How to use:\nJust call the executable and give it a list of numbers separated by ','.\nSomething like: selection_sort.exe <3,4,5,...>\nbut without '<' and '>'");
 
     int list_len;
     int* list = get_list_from_argv(argv[1], &list_len);
