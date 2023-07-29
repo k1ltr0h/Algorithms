@@ -6,11 +6,11 @@ C/C++ Algorithms
 
 Algorithms repository for C/C++ enthusiasts, students or averyone with some curiosity about it.
 
-## Algorithms until now
+### Algorithms until now
 
-* Selected Sort
+* Selection Sort
 
-## Authors
+### Authors
 
 Contributors names and contact info
 
