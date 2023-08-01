@@ -9,6 +9,8 @@ Algorithms repository for C/C++ enthusiasts, students or averyone with some curi
 ### Algorithms until now
 
 * Selection Sort
+* Bubble Sort
+* Merge Sort
 
 ### Authors
 
